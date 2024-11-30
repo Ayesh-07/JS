@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*{
+    font-family: 'Carter One';
+}
+
+
+body{
+   
+    font-size: 10rem;
+    
+    color: #444;
+    background: url("img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+
+
+
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: #DDEEFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(221, 239, 255, 0.5);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#decrease{
+    color: white;
+    background-color: #8FD14F;
+    width: 100px;
+    height: 100px;
+    border-radius:5px;
+    
+    border: solid rgb(35, 34, 34) 1px;
+    font-size: large;
+    
+}
+
+
+#reset{
+    color: white;
+    background-color:#FF6B6B;
+    width: 100px;
+    height: 100px;
+    border-radius:5px;
+    border: solid rgb(0, 0, 0) 1px;
+    font-size:large;
+
+}
+
+
+#increase{
+    color: white;
+     background-color: #835AF1;
+     width: 100px;
+     height: 100px;
+     border-radius:5px;
+     border: solid rgb(0, 0, 0) 1px;
+     font-size: large;
+}
